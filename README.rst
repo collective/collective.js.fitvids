@@ -14,6 +14,16 @@ FitVids is available on github_.
 version: 1.0
 License: Released under the WTFPL license - http://sam.zoy.org/wtfpl/
 
+How to use
+==========
+
+To use it, you just have to call fitVids method in your own javascript::
+
+  $('.container').fitVids();
+
+This addon do not activate fitVids on Plone pages,
+it just register the plugin, so you have to write your own javascript to use it.
+
 Credits
 =======
 
