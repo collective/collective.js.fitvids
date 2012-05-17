@@ -11,6 +11,9 @@ FitVids.js was built by Chris Coyier and Paravel
 
 FitVids is available on github_.
 
+version: 1.0
+License: Released under the WTFPL license - http://sam.zoy.org/wtfpl/
+
 Credits
 =======
 
