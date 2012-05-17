@@ -1,0 +1,22 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="collective.js.fitvids">
+
+  <browser:resourceDirectory
+    name="collective.js.fitvids"
+    directory="resources"
+    />
+
+  <include package=".upgrades"/>
+
+  <genericsetup:registerProfile
+      name="default"
+      title="collective.js.fitvids"
+      directory="profiles/default"
+      description='Extension profile for collective.js.fitvids.'
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+</configure>
